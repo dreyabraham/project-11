@@ -8,13 +8,13 @@ First update your instance name to jenkins-Ansible
 
 then we install ansible on the terminal using the `sudo apt install ansible`
 
-![alt text](Images/ansible.PNG)
+![alt text](Images/ansible.png)
 
 Now we are going to create a freestyle project called ansible on jenkins and configure it to save repository content with every change.
 
-![alt text](Images/jenkins.PNG)
+![alt text](Images/jenkins.png)
 
-![alt text](Images/build.PNG)
+![alt text](Images/build.png)
 
 The above image shows that has been completed.
 
@@ -32,7 +32,7 @@ Within the inventory folder, create an inventory file (.yml) for each environmen
 
 Now we set up our ansible inventory file
 
-![alt text](Images/dev.PNG)
+![alt text](Images/dev.png)
 
 Input the above code in your development file.
 
@@ -88,17 +88,17 @@ Now, it is time to execute ansible-playbook command and verify if the playbook a
 
 change directory into the cloned repository and run the command below `ansible-playbook -i inventory/dev.yml playbooks/common.yml`
 
-![alt text](Images/osss.PNG) 
+![alt text](Images/osss.png) 
 
-![alt text](Images/screen.PNG)
+![alt text](Images/screen.png)
 
 Above image shows that the configuration is succesful.
 
 Now we can go into the different terminals and check if our commannds worked
 
-![alt text](Images/ubuntu.PNG)
+![alt text](Images/ubuntu.png)
 
-![alt text](Images/redhat.PNG)
+![alt text](Images/redhat.png)
 
 The above images show that we have succesfully automated project 7-10 using ansible and jenkins .
 
