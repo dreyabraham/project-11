@@ -8,7 +8,7 @@ First update your instance name to jenkins-Ansible
 
 then we install ansible on the terminal using the `sudo apt install ansible`
 
-![alt text](Images/ansible.png)
+![alt tex](Images/ansible.png)
 
 Now we are going to create a freestyle project called ansible on jenkins and configure it to save repository content with every change.
 
@@ -88,9 +88,9 @@ Now, it is time to execute ansible-playbook command and verify if the playbook a
 
 change directory into the cloned repository and run the command below `ansible-playbook -i inventory/dev.yml playbooks/common.yml`
 
-![alt text](Images/osss.png) 
+![alt tex](Images/osss.png) 
 
-![alt text](Images/screen.png)
+![alt tex](Images/screen.png)
 
 Above image shows that the configuration is succesful.
 
