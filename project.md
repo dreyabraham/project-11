@@ -100,7 +100,7 @@ Now we can go into the different terminals and check if our commannds worked
 
 ![alt text](Images/redhat.PNG)
 
-The above images show that we have succesfully automated project 7-10 using ansible and jenkins
+The above images show that we have succesfully automated project 7-10 using ansible and jenkins .
 
 
 # END OF PROJECT 11
